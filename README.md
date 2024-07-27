@@ -22,7 +22,7 @@ tokenizer.padding_side = 'left'
 ## Datasets
 ```python
 from datasets import load_dataset
-dataset = load_dataset("lhoestq/demo1")
+dataset = load_dataset("Dataset_NAME")
 ```
 # Templates
 ```python
