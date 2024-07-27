@@ -7,24 +7,16 @@
 
 # Models and Datas
 Our trained models and experimental data are available on the huggingface hub.
-
-<pre>
-<code>
+```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
 hint_generator = AutoModelForCausalLM.from_pretrained(MODEL_NAME, load_in_4bit=True)
 tokenizer = AutoTokenizer.from_pretrained(hint_generator.config._name_or_path)
   
 tokenizer.pad_token_id = tokenizer.eos_token_id
 tokenizer.padding_side = 'left'  
-
-</code>
-</pre>
-
+```
 # Template
-
-<pre>
-<code>
-  
+```python
 def hint_paragraph_prompting(question, linearized_triple):
     res = (
         f'### Please create a short hint paragraph to answer the question reorganizing the triple information, step by step.\n'
@@ -44,6 +36,4 @@ def answer_prompting(question, hint):
     )
 
     return res
-
-</code>
-</pre>
+```
