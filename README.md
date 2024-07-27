@@ -34,6 +34,5 @@ def answer_prompting(question, hint):
         f'### Question: {question.strip()}\n'
         f'### Answer:'
     )
-
     return res
 ```
