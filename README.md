@@ -15,7 +15,7 @@ tokenizer = AutoTokenizer.from_pretrained(hint_generator.config._name_or_path)
 tokenizer.pad_token_id = tokenizer.eos_token_id
 tokenizer.padding_side = 'left'  
 ```
-# Template
+# Templates
 ```python
 def hint_paragraph_prompting(question, linearized_triple):
     res = (
