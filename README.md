@@ -5,7 +5,11 @@
 
 </div>
 
+This paper is being reviewed. We will release it and the code after it is reviewed. Some of our models and data are available now via Huggingface.
+
+
 # Models and Datas
+## Models
 Our trained models and experimental data are available on the huggingface hub.
 ```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -14,6 +18,11 @@ tokenizer = AutoTokenizer.from_pretrained(hint_generator.config._name_or_path)
   
 tokenizer.pad_token_id = tokenizer.eos_token_id
 tokenizer.padding_side = 'left'  
+```
+## Datasets
+```python
+from datasets import load_dataset
+dataset = load_dataset("lhoestq/demo1")
 ```
 # Templates
 ```python
