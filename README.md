@@ -8,7 +8,7 @@
 This paper is being reviewed. We will release it and the code after it is reviewed. Some of our models and data are available now via Huggingface.
 
 
-# Models and Datas
+# Models and Datasets
 ## Models
 Our trained models and experimental data are available on the huggingface hub.
 ```python
@@ -24,7 +24,7 @@ tokenizer.padding_side = 'left'
 from datasets import load_dataset
 dataset = load_dataset(DATASET_NAME)
 ```
-# Templates
+# Instruction Templates
 ```python
 def hint_paragraph_prompting(question, linearized_triple):
     res = (
