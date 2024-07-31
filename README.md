@@ -5,7 +5,7 @@
 
 </div>
 
-This paper is being reviewed. We will release it and the code after it is reviewed. Some of our models and data are available now via [Huggingface](https://huggingface.co/collections/CoShin/kg2h-66a88f1959d861260025241d).
+This paper is currently undergoing a review process. It will be released and the code will be made available once the review has been completed. Some of our models and data are available for use now via [Huggingface](https://huggingface.co/collections/CoShin/kg2h-66a88f1959d861260025241d).
 
 
 
