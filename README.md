@@ -1,7 +1,7 @@
 --- 
 <div align="center">    
   
-# `KG2H`: Enhancing Knowledge-Augmented Prompting for Question Answering via Task-Oriented Knowledge Graph-to-Text Optimization  
+# `KG2H`: Enhancing Knowledge-Augmented Prompting for Question Answering via Optimizing Knowledge Graph Description 
 
 </div>
 
